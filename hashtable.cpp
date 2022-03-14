@@ -36,7 +36,7 @@ public:
     void insert (string newItem)
     {
         int position = hashfunction(newItem);
-         [position].push_front(newItem);
+        table[position].push_front(newItem);
     }
 
     bool retrieve (string target)
